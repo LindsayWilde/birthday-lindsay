@@ -4,19 +4,43 @@
   display: grid;
   grid-template-rows: repeat(4, minmax(200px, 1fr));
   grid-template-columns: repeat(11, minmax(150px, 1fr)); }
-  .grid__skew-light-one {
-    -webkit-clip-path: polygon(0 0, 0% 100%, 100% 100%);
-    clip-path: polygon(0 0, 0% 100%, 100% 100%);
-    background-color: #5496e6;
-    grid-column: 1/2;
-    grid-row: 3/4; }
-  .grid__skew-light-two {
-    -webkit-clip-path: polygon(0 0, 0% 100%, 100% 100%);
-    clip-path: polygon(0 0, 0% 100%, 100% 100%);
-    background-color: #5496e6;
-    grid-column: 2/3;
-    grid-row: 4/5; }
-  .grid__skew-light-three-box {
-    background-color: #5496e6;
-    grid-column: 1/2;
-    grid-row: 4/5; }
+
+.grid__skew-light-one {
+  z-index: 10;
+  -webkit-clip-path: polygon(0 0, 0% 100%, 100% 100%);
+  clip-path: polygon(0 0, 0% 100%, 100% 100%);
+  background-color: #5496E6;
+  margin-bottom: -1px;
+  grid-column: 1/2;
+  grid-row: 3/4; }
+
+.grid__skew-light-two {
+  z-index: 10;
+  -webkit-clip-path: polygon(0 0, 0% 100%, 100% 100%);
+  clip-path: polygon(0 0, 0% 100%, 100% 100%);
+  background-color: #5496E6;
+  grid-column: 2/3;
+  grid-row: 4/5; }
+
+.grid__skew-light-three-box {
+  z-index: 10;
+  background-color: #5496E6;
+  grid-column: 1/2;
+  grid-row: 4/5; }
+
+.grid__skew-dark-one-box {
+  background-color: #518BDE;
+  grid-column: 1/3;
+  grid-row: 1/5; }
+
+.grid__skew-dark-two {
+  -webkit-clip-path: polygon(0 0, 100% 0%, 50% 100%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0%, 50% 100%, 0% 100%);
+  background-color: #518BDE;
+  grid-column: 1/5;
+  grid-row: 1/5; }
+
+.grid__skew-dark-three {
+  background-color: #518BDE;
+  grid-column: 1/2;
+  grid-row: 4/5; }
