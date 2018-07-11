@@ -13,6 +13,7 @@ base.css
 clippaths.css
 main.css
 button.css
+clock.css
 
 # production
 /build
