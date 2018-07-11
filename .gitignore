@@ -12,6 +12,7 @@ App.css
 base.css
 clippaths.css
 main.css
+button.css
 
 # production
 /build

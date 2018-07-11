@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Picker from './picker';
+import Button from './button';
+
 import './App.css';
 
 export default class App extends Component {
@@ -17,6 +19,7 @@ export default class App extends Component {
             <div className="grid__skew-light-three-box"></div>
 
             <Picker />
+            { Button('Generate Countdown') }
         </div>
     );
   }
