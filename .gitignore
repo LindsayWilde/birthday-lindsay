@@ -6,7 +6,12 @@
 # testing
 /coverage
 
-.css
+picker.css
+index.css
+App.css
+base.css
+clippaths.css
+main.css
 
 # production
 /build
