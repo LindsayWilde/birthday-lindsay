@@ -122,3 +122,19 @@
     line-height: 115px;
     color: white;
     font-family: 'Roboto Condensed'; }
+
+.change-date {
+  grid-row: 2/3;
+  grid-column: 4/5;
+  justify-self: start;
+  font-size: 18px;
+  line-height: 19px;
+  text-align: center;
+  color: white;
+  font-family: 'Roboto Condensed';
+  font-weight: 100;
+  background-color: transparent;
+  border: none;
+  transform: rotate(-70deg) translate(-70px, -70px); }
+  .change-date i {
+    margin-right: 5px; }
