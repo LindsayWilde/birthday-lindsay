@@ -6,14 +6,16 @@
 # testing
 /coverage
 
+*.css
+clock.css
 picker.css
 index.css
-App.css
 base.css
 clippaths.css
 main.css
 button.css
 clock.css
+App.css
 
 # production
 /build
