@@ -4,19 +4,19 @@ $color-yellow-one: #F7D754;
     text-align: left;
 
     grid-row: 3/4;
-    grid-column: 2/11;
+    grid-column: 2/10;
 
     clip-path: polygon(7% 0, 100% 0, 93% 100%, 0 100%);
     -webkit-clip-path: polygon(7% 0, 100% 0, 93% 100%, 0 100%);
 
-    height: 65%;
+    height: 85%;
     width: 100%;
     align-self: end;
     background-color: #444;
 
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 275px));
-    grid-column-gap: 60px;
+    grid-column-gap: 5px;
     align-items: center;
     justify-items:center;
     justify-content: center;
