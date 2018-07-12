@@ -19,4 +19,17 @@
         line-height: 22px;
         padding: 55px 75px;
     }
+    &__remaining {
+        grid-row: 4/5;
+        grid-column: 1/-1;
+        text-align: center;
+
+        margin-top: 33px;
+        color: #7c7c7c;
+        font-family: 'Montserrat';
+        font-size: 22px;
+        font-weight: 300;
+        text-align: center;
+        line-height: 27px;
+    }
 }
